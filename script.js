@@ -225,9 +225,9 @@ function playAgain(){
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function gameStatus(){
-    if (life >= 1 && score < 36){
+    if (life >= 1 && score < 40){
 
-    }else if(life >= 1 && score == 36 ){
+    }else if(life >= 1 && score == 40 ){
         ball.play = false
         ctx.font = "20px Arial";
         ctx.fillStyle = '#ffffff'
