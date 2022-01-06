@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon-octava.png" />
+    <title>Game</title>
+</head>
+<body>
+    <h1>Game</h1>
+    <button type="button" id = 'how-to-play-btn'>How to Play</button>
+    
+    <div id = 'rules' class = "rules hide-rules">
+        <p>Move Left and Right Arrow buttons to move paddle</p>
+        <p>Break bricks to score</p>
+        <button type="button" id = 'close-btn'>close</button>
+    </div>
+
+    <div id = "canvas-container">
+        <canvas id="gameCanvas" width='800px' height='600px'></canvas>
+        <button type="button" id = 'play-again-btn' hidden>Play Again</button>
+    </div>
+  
+    <script src = 'script.js'></script>
+</body>
+</html>
+
